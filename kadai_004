@@ -1,1 +1,53 @@
 kadai_004
+tnk_r@DESKTOP-DPV64FQ MINGW64 /
+$ cd "C:\Users\tnk_r\OneDrive\デスクトップ\git_challenge"
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge
+$ mkdir git_challenge
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge
+$ cd git_challenge
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/tnk_r/OneDrive/デスクトップ/git_challenge/git_challenge/.git/
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add hello1_world
+fatal: pathspec 'hello1_world' did not match any files
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add hello_world.txt
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add hello_world.txt
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git commit -m "hello_worldに追加"
+[main (root-commit) bb544e5] hello_worldに追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add hello_world.txt
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git commit -m"日本語訳を追記"
+[main 1e47b08] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git add .
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$ git log --oneline
+1e47b08 (HEAD -> main) 日本語訳を追記
+bb544e5 hello_worldに追加
+
+tnk_r@DESKTOP-DPV64FQ MINGW64 ~/OneDrive/デスクトップ/git_challenge/git_challenge (main)
+$
+
